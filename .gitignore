@@ -4,6 +4,14 @@
 *.xcuserstate
 *.xcscmblueprint
 
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
