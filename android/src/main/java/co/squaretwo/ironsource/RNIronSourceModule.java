@@ -38,7 +38,7 @@ public class RNIronSourceModule extends ReactContextBaseJavaModule {
             public void run() {
                 IronSource.setUserId(userId);
                 IronSource.init(reactContext.getCurrentActivity(), appId);
-                BannerManager.init(reactContext);
+                //BannerManager.init(reactContext);
             }
         });
     }
